@@ -1,11 +1,11 @@
-#include "shell.h"
+#include "main.h"
 
 /**
-* find_command - find command in PATH
+*find_command - find command in PATH
 *
-* @cmd: command to find
+*@cmd: command to find
 *
-* Return: string containing the ful path.
+*Return: string containing the ful path.
 */
 char *find_command(char *cmd)
 {
